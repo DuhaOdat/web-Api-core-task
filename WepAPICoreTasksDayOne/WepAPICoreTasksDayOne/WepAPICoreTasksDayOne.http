@@ -1,0 +1,6 @@
+@WepAPICoreTasksDayOne_HostAddress = http://localhost:5274
+
+GET {{WepAPICoreTasksDayOne_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
