@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Lb77CLoqThgdLC9LBEcGfrfDpQtaze4rVsniT1IJMIw=",
+  "Source": "taskTwoAPICore",
+  "BasePath": "_content/taskTwoAPICore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
