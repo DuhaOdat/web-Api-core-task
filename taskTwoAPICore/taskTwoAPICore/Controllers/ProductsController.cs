@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using taskTwoAPICore.DTOfolder;
 using taskTwoAPICore.Models;
 
 namespace taskTwoAPICore.Controllers
@@ -88,6 +89,57 @@ namespace taskTwoAPICore.Controllers
 
         }
 
+        [HttpPost]
+        public IActionResult CreateProduct([FromForm] productRequestDTO product)
+
+        {
+
+            var ImagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(ImagesFolder))
+            {
+                Directory.CreateDirectory(ImagesFolder);
+            }
+            var imageFile = Path.Combine(ImagesFolder, product.ProductImage.FileName);
+            using (var stream = new FileStream(imageFile, FileMode.Create))
+            {
+                product.ProductImage.CopyToAsync(stream);
+            }
+
+            var p = new Product
+            {
+                ProductName = product.ProductName,
+                ProductImage = product.ProductImage.FileName,
+            };
+
+            _db.Products.Add(p);
+            _db.SaveChanges();
+            return Ok();
+        }
+
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateProduct(int id, [FromForm] productRequestDTO product)
+        {
+            var ImagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(ImagesFolder))
+            {
+                Directory.CreateDirectory(ImagesFolder);
+            }
+            var imageFile = Path.Combine(ImagesFolder, product.ProductImage.FileName);
+            using (var stream = new FileStream(imageFile, FileMode.Create))
+            {
+                product.ProductImage.CopyToAsync(stream);
+            }
+            var p = _db.Products.FirstOrDefault(l => l.Id == id);
+            p.ProductName = product.ProductName;
+            p.ProductImage = product.ProductImage.FileName;
+          
+
+            _db.Products.Update(p);
+            _db.SaveChanges();
+            return Ok();
+
+        }
 
     }
 

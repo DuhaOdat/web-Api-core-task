@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using taskTwoAPICore.DTOfolder;
 using taskTwoAPICore.Models;
 
 namespace taskTwoAPICore.Controllers
@@ -60,6 +62,37 @@ namespace taskTwoAPICore.Controllers
             }
 
         }
+
+        [HttpPost]
+        public IActionResult AddUsers([FromForm] UsersRequestDTO user)
+        {
+            var u = new User
+            {
+                Username = user.Username,
+                Password = user.Password,
+                Email = user.Email,
+
+            };
+            _db.Users.Add(u);
+            _db.SaveChanges();
+            return Ok();
+
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateUsers( int id,[FromForm] UsersRequestDTO user)
+        {
+            var users = _db.Users.FirstOrDefault(u=>u.UserId == id);
+            user.Username = users.Username;
+            user.Password = users.Password;
+            user.Email = users.Email;
+
+            _db.Users.Update(users);
+            _db.SaveChanges() ;
+            return Ok();
+
+        }
+
 
 
     } 

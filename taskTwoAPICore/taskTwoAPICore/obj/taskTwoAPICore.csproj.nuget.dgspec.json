@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\source\\repos\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\source\\repos\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj": {
+    "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\source\\repos\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj",
         "projectName": "taskTwoAPICore",
-        "projectPath": "C:\\Users\\Orange\\source\\repos\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\taskTwoAPICore.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\source\\repos\\taskTwoAPICore\\taskTwoAPICore\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
