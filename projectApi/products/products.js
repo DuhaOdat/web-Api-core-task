@@ -1,5 +1,5 @@
 
-const n= (localStorage.getItem("id"));
+const n= localStorage.getItem("id");
 if(n==0 || n == null)
 {var  url="https://localhost:44364/api/Products";}
 else{

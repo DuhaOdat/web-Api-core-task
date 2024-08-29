@@ -15,6 +15,7 @@ namespace taskTwoAPICore.Controllers
         {
             _db = db;
         }
+
         [Route("AllCategories")]
         [HttpGet]
         public IActionResult GetAllCategory()
@@ -38,14 +39,14 @@ namespace taskTwoAPICore.Controllers
         [HttpGet]
         public IActionResult GetCategoryByName(string name)
         {
-            var category=_db.Categories.FirstOrDefault(c=>c.CategoryName == name);
+            var category = _db.Categories.FirstOrDefault(c => c.CategoryName == name);
 
             if (category != null)
             {
-               return Ok(category);
+                return Ok(category);
 
             }
-          
+
             else
             {
                 return NotFound();
@@ -60,7 +61,7 @@ namespace taskTwoAPICore.Controllers
                 return BadRequest();
             var category = _db.Categories.FirstOrDefault(x => x.Id == id);
 
-            if (category == null) 
+            if (category == null)
             {
                 return NotFound();
             }
@@ -73,7 +74,7 @@ namespace taskTwoAPICore.Controllers
         }
 
         [HttpPost]
-        public IActionResult createCategory( [ FromForm]categoryRequestDTO category)
+        public IActionResult createCategory([FromForm] categoryRequestDTO category)
 
         {
             var ImagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
@@ -100,13 +101,9 @@ namespace taskTwoAPICore.Controllers
 
 
         [HttpPut("{id}")]
-        public IActionResult UpdateCategory( int id ,[FromForm] categoryRequestDTO category)
+        public IActionResult UpdateCategory(int id, [FromForm] categoryRequestDTO category)
         {
             var ImagesFolder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
-            if (!Directory.Exists(ImagesFolder))
-            {
-                Directory.CreateDirectory(ImagesFolder);
-            }
             var imageFile = Path.Combine(ImagesFolder, category.CategoryImage.FileName);
             using (var stream = new FileStream(imageFile, FileMode.Create))
             {
@@ -120,7 +117,105 @@ namespace taskTwoAPICore.Controllers
             _db.Categories.Update(c);
             _db.SaveChanges();
             return Ok();
+
+        }
+
+        //[HttpGet("calculater")]
+        //public string calculater(string input  )
+        //{
+        //    string[] x = input.Split(' ');
+
+        //    int num1 = Convert.ToInt32(x[0]);
+        //    int num2= Convert.ToInt32(x[2]);
+        //    if (x[1] == "+")
+        //    {
+        //        return (num1 + num2).ToString();
+        //    }
+        //    else if (x[1] == "-")
+        //    {
+        //        return (num1 - num2).ToString();
+        //    }
+        //    else if (x[1] == "*")
+        //    {
+        //        return (num1 * num2).ToString();
+        //    }
+        //    else if (x[1] == "/")
+        //    {
+        //        return (num1 / num2).ToString();
+        //    }
+        //    else {
+        //        return "invalid opration";
+        //     }         
+        //}
+
+
+        [HttpGet("calc2")]
+        public IActionResult Calc(string input)
+        {
+            var x = input.Split(' ');
+            var num1 = Convert.ToDouble(x[0]);
+            var op = x[1];
+            var num2 = Convert.ToDouble(x[2]);
+
+            double result = 0;
+            switch (op)
+            {
+                case "+":
+                    result = num1 + num2;
+                    break;
+                case "-":
+                    result = num1 - num2;
+                    break;
+                case "*":
+                    result = num1 * num2;
+                    break;
+                case "/":
+                    if (num1 == 0)
+                    {
+                        return BadRequest("cant division by zero");
+                    }
+                    else
+                    {
+                        result = num1 / num2;
+                        break;
+                    }
+            }
+            return Ok();
+
+        }
+
+
+        [HttpGet("math")]
+        public bool Math(int num1, int num2)
+        {
+            if (num1 + num2 == 30 || num1 == 30 || num2 == 30)
+            {
+                return true;
+            
+            }
+            else
+            {
+                return false;
+
+            }
+            
         
         }
+
+        [HttpGet("check")]
+
+        public IActionResult checker(int num)
+        {
+            if (num % 3 == 0 || num % 7 == 0)
+                return Ok("true");
+
+            else { 
+                return Ok(false);
+            
+            }
+
+        }
+
+
     }
-    }
+}

@@ -109,6 +109,9 @@ namespace taskTwoAPICore.Controllers
             {
                 ProductName = product.ProductName,
                 ProductImage = product.ProductImage.FileName,
+                Price = product.Price,
+                CategoryId = product.CategoryId,
+                Description = product.Description,
             };
 
             _db.Products.Add(p);
@@ -133,6 +136,9 @@ namespace taskTwoAPICore.Controllers
             var p = _db.Products.FirstOrDefault(l => l.Id == id);
             p.ProductName = product.ProductName;
             p.ProductImage = product.ProductImage.FileName;
+            p.Price = product.Price;
+            p.CategoryId = product.CategoryId;
+            p.Description = product.Description;
           
 
             _db.Products.Update(p);

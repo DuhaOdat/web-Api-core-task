@@ -17,6 +17,7 @@ async function getCategory()
            <h5 class="card-title">${category.id}</h5>
            <h6 class="card-subtitle mb-2 text-muted">${category.categoryName}</h6>
            <button onClick="store(${category.id})" class="btn btn-success">show more product</button>
+         <button onClick="EditCategory(${category.id})" class="btn btn-success">Edit</button>
            </div>
         </div> 
 `
@@ -27,6 +28,11 @@ async function getCategory()
 function store(id) {
     localStorage.id = id;
     window.location.href ="../products/products.html";
+
+        }
+function EditCategory(id) {
+    localStorage.id = id;
+    window.location.href ="../category/upadteCategory.html";
 
         }
 getCategory();

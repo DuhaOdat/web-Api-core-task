@@ -40,6 +40,7 @@ namespace taskTwoAPICore
 
             app.UseHttpsRedirection();
 
+          
             app.UseAuthorization();
 
 

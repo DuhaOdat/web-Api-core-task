@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\dtofolder\\addcartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\dtofolder\\addcartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\dtofolder\\cartitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\dtofolder\\cartitemresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|c:\\users\\orange\\desktop\\web api core github taskes\\web-api-core-task\\tasktwoapicore\\tasktwoapicore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC5A946-016D-43A3-BA53-DE010B3F0B7C}|taskTwoAPICore\\taskTwoAPICore.csproj|solutionrelative:tasktwoapicore\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "taskTwoAPICore\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "taskTwoAPICore\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAgwFkAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T07:07:42.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "taskTwoAPICore\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "taskTwoAPICore\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAcwHEAAAAYAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\Category.cs",
+              "RelativeToolTip": "taskTwoAPICore\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T06:28:46.516Z",
+              "WhenOpened": "2024-08-28T19:02:09.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "taskTwoAPICore\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "taskTwoAPICore\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAAwGkAAAAwAAAA",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\Product.cs",
+              "RelativeToolTip": "taskTwoAPICore\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:21:35.159Z",
+              "WhenOpened": "2024-08-28T19:01:37.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\DTOfolder\\AddCartRequest.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\DTOfolder\\AddCartRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\DTOfolder\\AddCartRequest.cs",
+              "RelativeToolTip": "taskTwoAPICore\\DTOfolder\\AddCartRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:27:38.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\CartItem.cs",
+              "RelativeToolTip": "taskTwoAPICore\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:58:08.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItemResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\DTOfolder\\CartItemResponseDTO.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\DTOfolder\\CartItemResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\DTOfolder\\CartItemResponseDTO.cs",
+              "RelativeToolTip": "taskTwoAPICore\\DTOfolder\\CartItemResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:35:04.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "taskTwoAPICore\\Models\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Models\\MyDbContext.cs",
-              "RelativeToolTip": "taskTwoAPICore\\Models\\MyDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\Controllers\\CartItemsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "taskTwoAPICore\\Controllers\\CartItemsController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwC4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T23:19:27.55Z"
+              "WhenOpened": "2024-08-28T09:24:55.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "taskTwoAPICore\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\taskTwoAPICore\\taskTwoAPICore\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "taskTwoAPICore\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T06:40:51.604Z",
+              "EditorCaption": ""
             }
           ]
         }
