@@ -51,15 +51,16 @@ namespace taskTwoAPICore.Controllers
         public IActionResult DeleteUser(int id)
         {
             if (id<=0) return BadRequest();
-            var users = _db.Users.FirstOrDefault(u=>u.UserId == id);
-            if (users==null)
-                return NotFound();
-            else
-            {
-                _db.Users.Remove(users);
+
+            var deletedCart=_db.Carts.FirstOrDefault(c=>c.UserId == id);
+            _db.RemoveRange(deletedCart);
+            _db.SaveChanges();
+            var deletedUsers = _db.Users.FirstOrDefault(u=>u.UserId == id);
+            
+                _db.Users.Remove(deletedUsers);
                 _db.SaveChanges();
                 return NoContent();
-            }
+            
 
         }
 

@@ -5,11 +5,7 @@ async function getCategory()
     let request= await fetch(url);
     let data= await request.json();
 
-    let container=document.getElementById("container");
-
-   
-
-  
+    let container=document.getElementById("container");  
     data.forEach(category =>{
 
         container.innerHTML+=`

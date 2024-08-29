@@ -59,18 +59,17 @@ namespace taskTwoAPICore.Controllers
         {
             if (id <= 0)
                 return BadRequest();
-            var category = _db.Categories.FirstOrDefault(x => x.Id == id);
 
-            if (category == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                _db.Categories.Remove(category);
+            var deletedProduct=_db.Products.Where(p=>p.CategoryId == id).ToList();
+            _db.RemoveRange(deletedProduct);
+            _db.SaveChanges();
+
+            var deleteCategory = _db.Categories.FirstOrDefault(x => x.Id == id);
+
+                _db.Categories.Remove(deleteCategory);
                 _db.SaveChanges();
-                return Ok();
-            }
+            return NoContent();
+
         }
 
         [HttpPost]
