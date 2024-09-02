@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\source\\repos\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj": {}
+    "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\source\\repos\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj": {
+    "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\source\\repos\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj",
+        "projectUniqueName": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj",
         "projectName": "WepAPICoreTasksDayOne",
-        "projectPath": "C:\\Users\\Orange\\source\\repos\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj",
+        "projectPath": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne.csproj",
         "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\source\\repos\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\obj\\",
+        "outputPath": "C:\\Users\\Orange\\Desktop\\web Api core github taskes\\web-Api-core-task\\WepAPICoreTasksDayOne\\WepAPICoreTasksDayOne\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

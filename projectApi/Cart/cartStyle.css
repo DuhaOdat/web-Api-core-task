@@ -1,6 +1,4 @@
-.table-wrapper{
-    margin: 0;
-}
+
 
 .fl-table {
     border-radius: 5px;
@@ -30,13 +28,5 @@
 }
 
 
-.fl-table thead th:nth-child(odd) {
-    color: #ffffff;
-    background: #324960;
-}
-
-.fl-table tr:nth-child(even) {
-    background: #F8F8F8;
-}
 
 

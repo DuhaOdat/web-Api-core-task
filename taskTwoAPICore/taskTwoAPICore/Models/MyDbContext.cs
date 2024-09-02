@@ -112,6 +112,8 @@ public partial class MyDbContext : DbContext
             entity.Property(e => e.Password)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.PasswordHash).HasColumnName("passwordHash");
+            entity.Property(e => e.PasswordSalt).HasColumnName("passwordSalt");
             entity.Property(e => e.Username)
                 .HasMaxLength(100)
                 .IsUnicode(false);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("taskTwoAPICore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2deb471acc216ad6a0a35baa0e056793b331e4e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd3304c27f5fc743f8a7fd3f3099eb7a961adf4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("taskTwoAPICore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("taskTwoAPICore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,8 +15,15 @@ const url = "https://localhost:44364/api/CartItems/GetAllCartItems";
                             <tr>
                                 <td>${element.product.productName}</td>
                                 <td>${element.product.price}</td>
-                                <td>${element.quantity}</td>
-                                <td></td>
+                                <td>
+                                <input type="number" value="${element.quantity}" id="quantity${element.cartItemId}">
+                                </td>
+                                <td>
+                                <button type="button" class="btn btn-primary" onclick="edit(${element.cartItemId})">Edit</button>
+                                </td>
+                                <td>
+                                <button type="button" class="btn btn-danger" onclick="deleteItem(${element.cartItemId})">Delete</button>
+                                </td>
                             </tr>
                         `}
                 }
@@ -25,3 +32,34 @@ const url = "https://localhost:44364/api/CartItems/GetAllCartItems";
        
     }
     loadCart();
+
+    async function edit(id) {
+        debugger;
+        event.preventDefault();
+        var quantity = document.getElementById(`quantity${id}`);
+        var data = {
+            quantity: quantity.value
+          };
+        var url = `https://localhost:44364/api/CartItems/${id}`;
+        var requist = await fetch(url, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        console.log(response);
+         location.reload();
+    }
+    
+    async function deleteItem(data) {
+        var url = `https://localhost:44364/api/CartItems/${data}`;
+        var requist = await fetch(url, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        location.reload();
+        
+    }

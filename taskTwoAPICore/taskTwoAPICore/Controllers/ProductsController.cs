@@ -24,6 +24,14 @@ namespace taskTwoAPICore.Controllers
             return Ok(products);
         }
 
+        [HttpGet("getlastProduct")]
+        public IActionResult GetProducts()
+        {
+            var products = _db.Products.OrderByDescending(n =>n.ProductName).ToList().TakeLast(5);
+
+            return Ok(products);
+        }
+
         [HttpGet("{id:int:max(10)}")]
         public IActionResult GetProduct(int id)
         {

@@ -59,5 +59,28 @@ namespace taskTwoAPICore.Controllers
 
 
         }
+
+
+        [HttpDelete("{id}")]
+        public IActionResult deleteCartItem(int id)
+        {
+
+            var cartItem = _db.CartItems.FirstOrDefault(l => l.CartItemId == id);
+
+            _db.CartItems.Remove(cartItem);
+            _db.SaveChanges();
+            return Ok();
+
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult cartItemPut(int id, [FromBody] cartItemPutDTO cartItem)
+        {
+            var cart = _db.CartItems.FirstOrDefault(l => l.CartItemId == id);
+            cart.Quantity = cartItem.Quantity;
+            _db.CartItems.Update(cart);
+            _db.SaveChanges();
+            return Ok();
+        }
     }
 }
