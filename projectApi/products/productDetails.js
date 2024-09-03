@@ -9,6 +9,19 @@ const n= localStorage.getItem("productid");
 
 async function getProducts()
  {
+    var token = localStorage.getItem('jwtToken')
+    if(token==null)
+    {alert("Please login first");
+        window.location.href="../../colorlib-regform-7/login.html";
+    }
+   
+    var response = await fetch(url, {
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }   
+    });
+
+
     let request= await fetch(url);
     let data=await request.json();
  

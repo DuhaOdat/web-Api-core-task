@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using taskTwoAPICore.DTOfolder;
 using taskTwoAPICore.Models;
@@ -16,7 +17,7 @@ namespace taskTwoAPICore.Controllers
             _db = db;
         }
 
-
+        [Authorize]
         [HttpGet]
         public IActionResult GetAllProducts()
         {
@@ -41,7 +42,7 @@ namespace taskTwoAPICore.Controllers
             var product = _db.Products.Where(p => p.Id == id);
             return Ok(product);
         }
-
+        [Authorize]
         [HttpGet("productsByCategoryId/{categoryId}")]
         public IActionResult getProductsById(int categoryId) 
         { 

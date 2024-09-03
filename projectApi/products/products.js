@@ -1,5 +1,10 @@
+debugger;
 
-const n= localStorage.getItem("id");
+
+async function getProducts()
+ {
+    var token = localStorage.getItem('jwtToken')
+    const n= localStorage.getItem("id");
 if(n==0 || n == null)
 {var  url="https://localhost:44364/api/Products";}
 else{
@@ -7,11 +12,19 @@ else{
 
 }
 
+    if(token==null)
+    {alert("Please login first");
+        window.location.href="../../colorlib-regform-7/login.html";
 
-async function getProducts()
- {
-    let request= await fetch(url);
-    let data=await request.json();
+    }
+   
+    var response = await fetch(url, {
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }   
+    });
+      
+    let data=await response.json();
  
     let container= document.getElementById("container");
 

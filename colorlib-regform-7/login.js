@@ -2,6 +2,7 @@
 
 async function Login()
 {
+
     event.preventDefault(); // Prevent the form from submitting
 
     debugger;
@@ -13,10 +14,14 @@ async function Login()
     let response = await fetch(url,{
         method: "POST",
         body: formData,
+       
     });
 
     if (response.ok) {
+        var result= await response.json();
+        localStorage.setItem('jwtToken', result.token);
         alert("/ Loggened successfully");
+        window.location.href= "../projectApi/index.html";
     } else {
         alert("logging failed. Please try again.");
     }
@@ -24,5 +29,6 @@ async function Login()
    
     alert("An error occurred during Loggin.");
 }
+
 
 }

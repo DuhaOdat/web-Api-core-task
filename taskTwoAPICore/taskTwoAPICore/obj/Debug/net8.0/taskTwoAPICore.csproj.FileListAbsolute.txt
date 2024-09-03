@@ -273,3 +273,4 @@ C:\Users\Orange\Desktop\web Api core github taskes\web-Api-core-task\taskTwoAPIC
 C:\Users\Orange\Desktop\web Api core github taskes\web-Api-core-task\taskTwoAPICore\taskTwoAPICore\obj\Debug\net8.0\taskTwoAPICore.pdb
 C:\Users\Orange\Desktop\web Api core github taskes\web-Api-core-task\taskTwoAPICore\taskTwoAPICore\obj\Debug\net8.0\taskTwoAPICore.genruntimeconfig.cache
 C:\Users\Orange\Desktop\web Api core github taskes\web-Api-core-task\taskTwoAPICore\taskTwoAPICore\obj\Debug\net8.0\ref\taskTwoAPICore.dll
+C:\Users\Orange\Desktop\web Api core github taskes\web-Api-core-task\taskTwoAPICore\taskTwoAPICore\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

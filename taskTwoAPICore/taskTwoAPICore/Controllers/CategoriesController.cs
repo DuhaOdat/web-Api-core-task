@@ -215,6 +215,23 @@ namespace taskTwoAPICore.Controllers
 
         }
 
+        //[HttpGet("getnumberOddOccurring")]
+        //public IActionResult checkOddrepeat([FromQuery] int[] num)
+
+        //{
+        //    var op = num.GroupBy(a => a).Where(g => g.Count() % 2 != 0).Select(g => g.Key).ToList();
+
+        //    return Ok(op);
+        //}
+        [HttpPost("getnumberOddOccurring")]
+        public IActionResult checkOddrepeat([FromBody] List<int> num)
+
+        {
+            var op=  num.GroupBy(a=>a).Where(g=>g.Count() % 2 !=0).Select(g=>g.Key).ToList();
+
+            return Ok(op);
+        }
+
 
     }
 }

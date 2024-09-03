@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using taskTwoAPICore.DTOfolder;
 using taskTwoAPICore.Models;
 
@@ -11,12 +12,12 @@ namespace taskTwoAPICore.Controllers
     public class UsersController : ControllerBase
     {
         private readonly MyDbContext _db;
-
-        public UsersController(MyDbContext db)
+        private readonly TokenGenerator _tokenGenerator;
+        public UsersController(MyDbContext db, TokenGenerator tokenGenerator)
         {
 
             _db = db;
-
+            _tokenGenerator = tokenGenerator;
         }
 
         [HttpGet]
@@ -123,11 +124,15 @@ namespace taskTwoAPICore.Controllers
             {
                 return Unauthorized("Invalid");
             }
-            return Ok("Logged in successfully");
+            var roles = _db.UserRoles.Where(x => x.UserId == user.UserId).Select(ur => ur.Role).ToList();
+            var token = _tokenGenerator.GenerateToken(user.Email, roles);
+
+            return Ok(new { Token = token });
+           
         }
 
 
-
+        
 
     } 
 }
